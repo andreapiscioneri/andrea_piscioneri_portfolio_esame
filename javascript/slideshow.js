@@ -13,5 +13,5 @@ function next() {
 }
 
 function setImg() {
-  slider_img.src = "images/" + images[i];
+  slider_img.src = "/images/" + images[i];
 }

@@ -66,6 +66,11 @@ header .logo {
   font-weight: 500;
   border-radius: 5px;
 }
+.banner .content a:hover {
+  background: black;
+  color: white;
+  transition: 0.3s;
+}
 
 .sci {
   position: absolute;

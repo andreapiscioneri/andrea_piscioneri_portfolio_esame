@@ -76,6 +76,12 @@ header {
       font-size: 1.2em;
       font-weight: 500;
       border-radius: 5px;
+
+      &:hover {
+        background: black;
+        color: white;
+        transition: 0.3s;
+      }
     }
   }
 }

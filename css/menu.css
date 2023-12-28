@@ -1,4 +1,4 @@
-* {
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -23,23 +23,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
-  ul {
-      li {
-          list-style-type: none;
-          a {
-              text-decoration: none;
-              color: black;
-              font-size: 4em;
-              line-height: 1.5em;
-              transition: color 0.3s;
-          }
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-          a:hover {
-              color: #99afb9;
-          }
-      }
-  }
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 4em;
+  line-height: 1.5em;
+  transition: color 0.3s;
+}
+
+#menu ul li a:hover {
+  color: #99afb9;
 }
 
 #menu.active {
@@ -48,29 +49,27 @@
 
 @media (max-width: 767px) {
   #toggle {
-      right: 10px;
-      top: 1px;
+    right: 10px;
+    top: 1px;
   }
 
   #menu {
-      right: -100%;
+    right: -100%;
   }
 
   #menu.active {
-      right: 0;
+    right: 0;
   }
 
   #menu ul li a {
-      list-style-type: none;
-      text-decoration: none;
-      font-size: 1.75em;
-      line-height: 1.8em;
-      transition: 0.3s;
-      color: black;
- 
+    text-decoration: none;
+    font-size: 1.75em;
+    line-height: 1.8em;
+    transition: 0.3s;
+    color: black;
   }
 
   #menu ul li a:hover {
-      color: #99afb9;
+    color: #99afb9;
   }
 }

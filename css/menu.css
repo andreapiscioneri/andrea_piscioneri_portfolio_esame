@@ -65,6 +65,8 @@
       line-height: 1.8em;
       transition: 0.3s;
       color: black;
+      list-style-type: none;
+      text-decoration: none;
   }
 
   #menu ul li a:hover {

@@ -33,7 +33,7 @@ body {
 
 #menu ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 4em;
   line-height: 1.5em;
   transition: color 0.3s;
@@ -45,6 +45,11 @@ body {
 
 #menu.active {
   right: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px);
+  transition: all 1s;
+
 }
 
 @media (max-width: 767px) {

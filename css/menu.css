@@ -72,7 +72,7 @@ transform: scale(1.1);
     font-size: 1.75em;
     line-height: 1.8em;
     transition: 0.3s;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   #menu ul li a:hover {

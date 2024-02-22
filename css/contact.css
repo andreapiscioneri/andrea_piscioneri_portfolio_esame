@@ -1,0 +1,161 @@
+/* stili pagina */
+
+  html, body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+
+  header, footer {
+    height: 20px;
+  }
+
+  h1 {
+   cursor: pointer;
+  }
+
+/* form */
+
+  .col-md-6.contact-form {
+    background-color: #000000; 
+    height: 100vh; 
+    color: white; 
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 100px; 
+  }
+
+  .form-group {
+    margin-top: 40px; 
+    padding-left: 160px; 
+    padding-right: 160px; 
+  }
+
+  .form-group label {
+    font-weight: 500; 
+    margin-bottom: 5px; 
+  }
+
+  .form-control {
+    margin-bottom: 10px; 
+  }
+
+  button.btn-primary {
+    background-color: #fff; 
+    color: #000000; 
+    border: #000000; 
+    border-radius: 0px; 
+    font-weight: 500; 
+  }
+
+  .btn-primary:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+    border-radius: 0px; 
+  }
+
+  .form-control:focus {
+    border-color: #99afb9; 
+    box-shadow: 0 0 0; 
+  }
+
+/* colonna immagine */
+
+  .col-md-6.background-image {
+    background-image: url(../images/maps.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 20px; 
+    height: 100vh; 
+  }
+
+/* animazione di "vento" */
+
+  section {
+    height: calc(100vh - 100px);
+  }
+  
+  #headline h1 {
+    font-size: 4em;
+    color: white;
+    cursor: pointer;
+  }
+
+  @keyframes wind {
+    0% {
+      transform: rotate(-5deg); /* a 0% dell'animazione ruota leggermente verso sinistra */
+    }
+    25% {
+      transform: rotate(5deg); /* a 25% dell'animazione ruota verso destra */
+    }
+    50% {
+      transform: rotate(-5deg); /* a 50% dell'animazione torna leggermente verso sinistra */
+    }
+    75% {
+      transform: rotate(5deg); /* a 75% dell'animazione ruota verso destra */
+    }
+    100% {
+      transform: rotate(-5deg); /* a 100% dell'animazione torna leggermente verso sinistra */
+    }
+  }
+
+  /* animazione al passaggio del mouse */
+
+  #headline h1:hover {
+    animation: wind 0.5s infinite alternate; /* applica l'animazione di "vento" */
+    font-size: 10em; 
+    color: #99afb9;
+  }
+
+/* carosello */
+
+  .carousel-item {
+    height: 55vh;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    z-index: 0;
+  }
+
+/* media query per tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-6 {
+     width: 100%;
+     margin-top: 100px;
+    }
+    .col-md-6.background-image {
+    width: 100%;
+    margin-top:100px ;
+    }
+    .carousel-item {
+      height: auto; 
+    }
+    #headline h1 {
+      font-size: 2.5em; 
+    }
+    #headline h1:hover {
+      font-size: 6.5em; 
+    }
+    .col-md-6.contact-form{
+      padding-top: 0;
+      padding-left: 50px; 
+      padding-right: 50px; 
+      padding-bottom: 0;
+    }
+  }
+
+/* media query per telefoni */
+  @media (max-width: 767px) {
+    .form-group {
+      padding-left: 80px; 
+      padding-right: 80px; 
+    }
+    .h2, h2 {
+      padding-bottom: 50px;
+    }
+    #headline h1 {
+      font-size: 1.25em; 
+    }
+    #headline h1:hover {
+      font-size: 3.75em; 
+    }
+  }

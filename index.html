@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio APdesign</title>
+  <link rel="icon" href="images/aplogobn.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/hamburger.css">
+  <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+
+  <!-- loading -->
+  <div id="loading">
+    <img class="loading-image" src="images/aplogo.png" alt="loading image">
+  </div>
+
+  <!-- contenuto -->
+  <div id="content" class="site">
+    <section class="banner" id="sec">
+      <header>
+        <a href="index.html" class="logo">apdesign</a>
+      </header>
+      <div class="content"> 
+        <h2>Hi there, <br> I'm <span>Andrea Piscioneri</span></h2>
+        <p>I am a graphic designer, welcome to my portfolio site. Here you can see what I like to do through some of my best projects realized during my school and work periods. I hope you like them, if you need collaboration don't hesitate to contact me!</p>
+        <a href="#">Know More</a>
+      </div>
+
+      <!-- icone social -->
+      <ul class="sci">
+        <li><a href="https://www.facebook.com"><img src="images/facebook.png"></a></li>
+        <li><a href="https://instagram.com"><img src="images/instagram.png"></a></li>
+        <li><a href="https://www.linkedin.com"><img src="images/linkedin.png"></a></li>
+      </ul>
+    </section>
+
+    <!-- menu -->
+    <button id="toggle" class="hamburger hamburger--arrow" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button> 
+    <div id="menu">
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </div>
+
+<!-- slideshow automatico -->
+<div class="contatiner-slide"> 
+<div class="slideshow-container">
+    <div class="slide fade">
+      <img src="./images/foto1.jpg" alt="Slide 1">
+    </div>
+    <div class="slide fade">
+      <img src="./images/foto2.jpg" alt="Slide 2">
+    </div>
+      <div class="slide fade">
+        <img src="./images/foto3.jpg" alt="Slide 3">
+      </div>
+      <div class="slide fade">
+        <img src="./images/foto4.jpg" alt="Slide 4">
+      </div>
+      <div class="slide fade">
+        <img src="./images/foto5.jpg" alt="Slide 5">
+      </div>
+    </div>
+  </div>
+
+    <!-- accordion -->
+    <h1>Else</h1>
+    <div class="box-accordion">
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2>City</h2>
+          <div class="accordion-content">
+            <p>I'm from Bergamo, a charming Italian city located in Lombardy, captivates with its dual identity: the Upper Town, a medieval enclave surrounded by walls, and the Lower Town, modern and dynamic. Rich in history, art, and breathtaking views, Bergamo welcomes visitors with its architectural beauty and vibrant cultural atmosphere.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- scrolling -->
+    <div class="scrolling">
+      <div class="message">UX/UI designer-</div>
+      <div class="message">Web designer-</div>
+      <div class="message">Photographer-</div>
+      <div class="message">Graphic designer</div>
+    </div>
+  </div>
+  
+  <!-- javascript -->
+  <script src="javascript/menu.js"></script>
+  <script src="javascript/accordion.js"></script>
+  <script src="javascript/loading.js"></script>
+  <script src="javascript/slideshow.js"></script>
+
+</body>
+</html>

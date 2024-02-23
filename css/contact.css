@@ -161,5 +161,6 @@
     }
     .col-md-6.background-image {
       z-index: 1000;
+      margin-top: 100px;
       }
   }

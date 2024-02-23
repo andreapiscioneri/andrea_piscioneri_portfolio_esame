@@ -125,6 +125,7 @@
     .col-md-6.background-image {
     width: 100%;
     margin-top:100px ;
+    z-index: 1000;
     }
     .carousel-item {
       height: auto; 
@@ -158,4 +159,7 @@
     #headline h1:hover {
       font-size: 3.75em; 
     }
+    .col-md-6.background-image {
+      z-index: 1000;
+      }
   }

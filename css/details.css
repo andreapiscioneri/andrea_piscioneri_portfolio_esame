@@ -140,7 +140,7 @@
   }
   
   .message {
-    font-size: 5em;
+    font-size: 5em; /* 80px */
     color: white;
     opacity: 40%;
     font-weight: bold; 
@@ -164,7 +164,7 @@
       max-width: 80%;
     }
     .message{
-      font-size: 3em;
+      font-size: 3em; /* 48px */
       overflow-x: hidden;
     }
     .slideshow-container {
@@ -181,7 +181,7 @@
         max-width: 80%;
     }
     .message{
-        font-size: 3em;
+        font-size: 3em; /* 48px */
         overflow-x: hidden;
       }
       .container-slide {

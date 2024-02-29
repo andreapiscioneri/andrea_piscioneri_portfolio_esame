@@ -76,7 +76,7 @@
   }
   
   #headline h1 {
-    font-size: 4em;
+    font-size: 4em; /* 64px */
     color: white;
     cursor: pointer;
   }
@@ -103,7 +103,7 @@
 
   #headline h1:hover {
     animation: wind 0.5s infinite alternate; /* applica l'animazione di "vento" */
-    font-size: 10em; 
+    font-size: 10em; /* 160px */
     color: #99afb9;
   }
 
@@ -131,10 +131,10 @@
       height: auto; 
     }
     #headline h1 {
-      font-size: 2.5em; 
+      font-size: 2.5em; /* 40 px*/
     }
     #headline h1:hover {
-      font-size: 6.5em; 
+      font-size: 6.5em; /* 104 px*/
     }
     .col-md-6.contact-form{
       padding-top: 0;
@@ -154,10 +154,10 @@
       padding-bottom: 50px;
     }
     #headline h1 {
-      font-size: 1.25em; 
+      font-size: 1.25em; /* 20px */
     }
     #headline h1:hover {
-      font-size: 3.75em; 
+      font-size: 3.75em; /* 60px */
     }
     .col-md-6.background-image {
       z-index: 1000;

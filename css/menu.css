@@ -66,8 +66,8 @@
   #menu ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 4em;
-    line-height: 1.5em;
+    font-size: 4em; /* 64px */
+    line-height: 1.5em; /* 96px */
     transition: color 0.3s;
   }
 
@@ -123,8 +123,8 @@
 
     #menu ul li a {
       text-decoration: none;
-      font-size: 2.5em;
-      line-height: 1.8em;
+      font-size: 2.5em; /* 40px */
+      line-height: 1.8em; /* 72px */
       transition: 0.3s;
       color: rgb(255, 255, 255);
     }
@@ -175,8 +175,8 @@
 
     #menu ul li a {
       text-decoration: none;
-      font-size: 1.75em;
-      line-height: 1.8em;
+      font-size: 1.75em; /* 28px */
+      line-height: 1.8em; /* 50.4px */
       transition: 0.3s;
       color: rgb(255, 255, 255);
     }

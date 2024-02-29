@@ -13,7 +13,7 @@ const anim = () => {
         }
     });
     // aggiunta delle animazioni
-    tl2.from(message1, { duration: 1, xy: -vwidth }) // in entrata
+    tl2.from(message1, { duration: 1 }) // in entrata
        .to(message1, { duration: 1, scale: 2.5, delay: 0.5 }); // in uscita
 
     message1.addEventListener("click", () => window.location.href = "index.html"); 

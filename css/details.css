@@ -44,7 +44,7 @@
 
   h1 {
     text-align: center;
-    margin: 1em 0;
+    margin: 1em 0; /* 32px */
     color: white;
   }
   
@@ -59,7 +59,7 @@
   }
   
   .accordion-item h2 {
-    padding: 1em;
+    padding: 1em; /* 24px */
     margin: 0;
     cursor: pointer;
     position: relative;
@@ -82,11 +82,11 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out;
-    padding: 0 1em;
+    padding: 0 1em; /* 0px 16px*/
   }
   
   .accordion-content p {
-    padding: 1em 0;
+    padding: 1em 0; /* 16px 0px*/
     margin: 0;
   }
   

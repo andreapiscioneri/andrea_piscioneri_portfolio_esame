@@ -1,7 +1,5 @@
 const anim = () => {
-    const vwidth = window.innerWidth;  //larghezza della finestra del browser
     const message1 = document.getElementById("message1"); 
-
     const tl2 = gsap.timeline({ 
         scrollTrigger: {
             trigger: "#headline", 

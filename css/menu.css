@@ -176,7 +176,7 @@
     #menu ul li a {
       text-decoration: none;
       font-size: 1.75em; /* 28px */
-      line-height: 1.8em; /* 50.4px */
+      line-height: 1.8em; /* 72px */
       transition: 0.3s;
       color: rgb(255, 255, 255);
     }
